@@ -1,0 +1,24 @@
+/* تمرير سلس بالـ CSS كخيار إضافي */
+html { scroll-behavior: smooth; }
+
+.hero-section {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/images/hero.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+.col-md-4:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+    color: #007bff;
+}
+
+.table tr:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+.lead{
+    color: black;
+}
